@@ -3,7 +3,7 @@ name: automerge
 on:
   pull_request:
     types:
-      - labeled
+      - labeled `automerge`
   pull_request_review:
     types:
       - submitted
