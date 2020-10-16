@@ -7,5 +7,6 @@
 - name: Merge pull requests
   uses: pascalgn/automerge-action@v0.12.0
 ... #End YAML
-### PR 004 restored full code
+### PR 004 restored full code ... automerge OK
 * removed all types except "labeled"
+### PR 005 test new branch with different labels
