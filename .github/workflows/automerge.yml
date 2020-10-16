@@ -4,7 +4,6 @@ on:
   pull_request:
     types:
       - labeled
-    tags: automerge
   pull_request_review:
     types:
       - submitted
