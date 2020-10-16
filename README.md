@@ -9,4 +9,5 @@
 ... #End YAML
 ### PR 004 restored full code ... automerge OK
 * removed all types except "labeled"
-### PR 005 test new branch with different labels
+### PR 005 test new branch with different labels ...checks anyway
+### PR 006 test defined label
