@@ -18,7 +18,7 @@ jobs:
       - uses: act10ns/slack@v1
         with:
           status: starting
-          channel: '#workflows'
+          channel: '#github-workflow'
         if: always()
       - name: automerge
         uses: "pascalgn/automerge-action@v0.12.0"
@@ -28,7 +28,7 @@ jobs:
         with:
           status: ${{ job.status }}
           steps: ${{ toJson(steps) }}
-          channel: '#workflows'
+          channel: '#github-workflow'
         if: always():  
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
