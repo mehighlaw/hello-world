@@ -2,20 +2,9 @@
 name: automerge
 on:
   pull_request:
-    branches-ignore:
-    - "!main"
-    types:
-      - labeled
-  pull_request_review:
-    branches-ignore:
-    - "!main"
-    types:
-      - submitted
-  check_suite:
-    branches-ignore:
-    - "!main"
-    types:
-      - completed
+    branches:
+      - "main"
+      - "!**"
   status: {}
 jobs:
   automerge:
