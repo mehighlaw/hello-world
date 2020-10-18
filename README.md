@@ -11,3 +11,5 @@
 * removed all types except "labeled"
 ### PR 005 test new branch with different labels ...checks anyway
 ### PR 006 test defined label
+
+## PR 007 Slack webhook activated.  testing...
