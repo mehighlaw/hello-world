@@ -4,12 +4,15 @@ on:
   pull_request:
     types:
       - labeled
+    branches: main
   pull_request_review:
     types:
       - submitted
+    branches: main
   check_suite:
     types:
       - completed
+    branches: main
   status: {}
 jobs:
   automerge:
