@@ -7,6 +7,9 @@ on:
     branches:
       - '!**'
       - 'dev'
+  check_suite:
+    types:
+      - completed
   status: {}
 jobs:
   automerge:
