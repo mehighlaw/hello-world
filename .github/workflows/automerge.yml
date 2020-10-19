@@ -3,8 +3,7 @@ name: automerge
 on:
   pull_request:
     branches:
-      - "main"
-      - "!**"
+      - dev
 #  status: {}
 jobs:
   automerge:
