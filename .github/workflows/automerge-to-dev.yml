@@ -3,7 +3,7 @@ name: Merge branch with labeled
 on:
   pull_request:
     branches: 
-     - !**
+     - '!**'
      - main
 jobs:
   merge-branch:
