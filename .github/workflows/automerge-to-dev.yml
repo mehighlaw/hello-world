@@ -1,9 +1,9 @@
 ---
-name: Merge branch with labeled
+name: Automerge to dev
 on:
   pull_request:
     branches: 
-     - !**
+     - '!**'
      - main
 jobs:
   merge-branch:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Merge by labeled
+      - name: automerge to dev
         uses: devmasx/merge-branch@v1.3.0
         with:
           label_name: 'automerge-to-dev'
