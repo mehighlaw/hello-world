@@ -1,5 +1,5 @@
-&lt;a href="https://tc.codaxy.com/viewType.html?buildTypeId=CDX_TicksCodaxyCom_Deploy&guest=1"&gt;
-&lt;img src="https://tc.codaxy.com/app/rest/builds/buildType:(id:CDX_TicksCodaxyCom_Deploy)/statusIcon"/&gt;
+&lt;a href="http://tc.codaxy.com/viewType.html?buildTypeId=CDX_TicksCodaxyCom_Deploy&guest=1"&gt;  
+&lt;img src="http://tc.codaxy.com/app/rest/builds/buildType:(id:CDX_TicksCodaxyCom_Deploy)/statusIcon"/&gt;  
 &lt;/a&gt;
 
 # hello-world
